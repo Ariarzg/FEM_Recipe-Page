@@ -25,14 +25,14 @@
     <title>Frontend Mentor | Recipe page</title>
   </head>
   <body>
-    <main class="main-content">
+    <article class="card">
       <img
         src="assets/images/image-omelette.jpeg"
         alt="Image Of An Omelette"
         class="omelette-image"
       />
-      <section class="intro">
-        <h1 class="title">Simple Omelette Recipe</h1>
+      <section class="intro" aria-labelledby="intro-title">
+        <h1 class="title" id="intro-title">Simple Omelette Recipe</h1>
         <p class="description">
           An easy and quick dish, perfect for any meal. This classic omelette
           combines beaten eggs cooked to perfection, optionally filled with your
@@ -40,22 +40,24 @@
         </p>
         <div class="preparation-container">
           <h3 class="preparation-title">Preparation time</h3>
-          <ul class="preparation-list">
+          <ul class="preparation-list" role="list">
             <li class="preparation-item">
-              <span class="subject">Total:</span> Approximately 10 minutes
+              <p>
+                <span class="subject">Total:</span> Approximately 10 minutes
+              </p>
             </li>
             <li class="preparation-item">
-              <span class="subject">Preparation:</span> 5 minutes
+              <p><span class="subject">Preparation:</span> 5 minutes</p>
             </li>
             <li class="preparation-item">
-              <span class="subject">Cooking:</span> 5 minutes
+              <p><span class="subject">Cooking:</span> 5 minutes</p>
             </li>
           </ul>
         </div>
       </section>
-      <section class="ingredients">
-        <h2 class="section-title">Ingredients</h2>
-        <ul class="ingredients-list">
+      <section class="ingredients" aria-labelledby="ingredients-title">
+        <h2 class="section-title" id="ingredients-title">Ingredients</h2>
+        <ul class="ingredients-list" role="list">
           <li class="ingredients-item">2-3 large eggs</li>
           <li class="ingredients-item">Salt, to taste</li>
           <li class="ingredients-item">Pepper, to taste</li>
@@ -66,8 +68,8 @@
         </ul>
       </section>
       <hr />
-      <section class="Instructions">
-        <h2 class="section-title">Instructions</h2>
+      <section class="Instructions" aria-labelledby="instruction-title">
+        <h2 class="section-title" id="instruction-title">Instructions</h2>
         <ol class="instructions-list">
           <li class="instructions-item">
             <span class="subject">Beat the eggs:</span> In a bowl, beat the eggs
@@ -101,8 +103,8 @@
         </ol>
       </section>
       <hr />
-      <section class="nutrition">
-        <h2 class="section-title">Nutrition</h2>
+      <section class="nutrition" aria-labelledby="nutrition-title">
+        <h2 class="section-title" id="nutrition-title">Nutrition</h2>
         <p>
           The table below shows nutritional values per serving without the
           additional fillings.
@@ -126,6 +128,6 @@
           </tr>
         </table>
       </section>
-    </main>
+    </article>
   </body>
 </html>
