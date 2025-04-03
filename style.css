@@ -29,11 +29,6 @@ body {
 .omelette-image {
   width: clamp(20rem, 100%, 45rem);
 }
-
-header {
-  background: white;
-}
-
 main {
   background: white;
 }
@@ -122,4 +117,29 @@ tr {
 
 tr:last-child {
   border: none;
+}
+
+@media (min-width: 25rem) {
+  body {
+    padding: 2rem;
+  }
+
+  main {
+    margin: 8% 0;
+    max-width: 40rem;
+    padding: 2rem;
+    border-radius: 2rem;
+  }
+
+  section {
+    padding: 1.5rem 0;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .omelette-image {
+    border-radius: 1rem;
+  }
 }
