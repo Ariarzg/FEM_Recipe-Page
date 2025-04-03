@@ -13,15 +13,15 @@ The designs were created to the following widths:
 
 - White: hsl(0, 0%, 100%)
 
-- Stone 100: hsl(30, 54%, 90%)
-- Stone 150: hsl(30, 18%, 87%)
-- Stone 600: hsl(30, 10%, 34%)
-- Stone 900: hsl(24, 5%, 18%)
+- Stone 100: #f3e6d8
+- Stone 150: #e4ded8
+- Stone 600: #5f574e
+- Stone 900: #302d2c
 
-- Brown 800: hsl(14, 45%, 36%)
+- Brown 800: #854632
 
-- Rose 800: hsl(332, 51%, 32%)
-- Rose 50: hsl(330, 100%, 98%)
+- Rose 800: #7b284f
+- Rose 50: #fff5fa
 
 ## Typography
 

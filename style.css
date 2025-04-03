@@ -1,0 +1,125 @@
+:root {
+  --stone-100: #f3e6d8;
+  --stone-150: #e4ded8;
+  --stone-600: #5f574e;
+  --stone-900: #302d2c;
+
+  --brown-800: #854632;
+
+  --cream: #f3e5d8;
+
+  --rose-800: #7b284f;
+  --rose-50: #fff5fa;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--cream);
+  font-family: "Outfit";
+  color: var(--stone-600);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.omelette-image {
+  width: clamp(20rem, 100%, 45rem);
+}
+
+header {
+  background: white;
+}
+
+main {
+  background: white;
+}
+
+section {
+  padding: 1.5rem;
+}
+
+hr {
+  margin: 0 2rem;
+  border: none;
+  outline: none;
+  height: 0.1rem;
+  background: var(--stone-100);
+}
+
+h1,
+h2 {
+  font-family: "Young Serif";
+  font-weight: 400;
+  color: var(--stone-900);
+}
+
+ul li::marker {
+  font-size: 0.7rem;
+  color: var(--brown-800);
+}
+
+ol li::marker {
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+ul,
+ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.title {
+  font-size: 1.85rem;
+  text-wrap: pretty;
+}
+
+.description {
+  margin: 1rem 0;
+}
+
+.preparation-container {
+  background: var(--rose-50);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.preparation-title {
+  color: var(--rose-800);
+}
+
+.section-title {
+  color: var(--brown-800);
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.subject {
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  border-bottom: 0.1rem solid var(--stone-150);
+}
+
+tr:last-child {
+  border: none;
+}
