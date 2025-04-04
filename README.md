@@ -22,7 +22,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/recipe-page-responsive-design-_GXOQgKTjB)
-- Live Site URL: [Recipe Page](https://ariarzg.github.io/recipe-page-main/)
+- Live Site URL: [Recipe Page](https://ariarzg.github.io/FEM_Recipe-Page/)
 
 ## My process
 
